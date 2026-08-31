@@ -30,15 +30,15 @@ description: 幽识（Obscura）：解读社会潜规则与代价的实用分析
    - 讲解用户可能遇到的黑灰产/风险/陷阱 → **无名裂隙**
    - **复杂请求可多板块联动；各板块的排布规则和合作关系自行决定**
 4. 读取板块文件：
-   - **分析正文**：读取 `references/works/<板块名>.md`
-   - **人格台词**（仅当开启）：读取 [templates/人格发言内容要求.md](./templates/Flavored%20outputs%20requests.md)，按该文件执行；**台词关闭时跳过此步，不读取该文件**。
+   - **分析正文**：读取 `references/<板块名>.md`
+   - **人格台词**（仅当开启）：读取 [templates/Flavored outputs requests.md](./templates/Flavored%20outputs%20requests.md)，按该文件执行；**台词关闭时跳过此步，不读取该文件**。
 5. 输出：人格台词（若开启）→ `---` → 按板块分节正文 → 综合结论。
 
 ---
 
 ## 输出格式
 
-1. **人格台词**（若开启）：输出规范见 [templates/人格发言内容要求.md](./templates/Flavored%20outputs%20requests.md)，按该文件执行。
+1. **人格台词**（若开启）：输出规范见 [templates/Flavored outputs requests.md](./templates/Flavored%20outputs%20requests.md)，按该文件执行。
 2. **分析事件**：对事件进行分析，所用的话语必须是成日常语言（[见下](#硬约束)）。
 3. **综合结论**：整合各板块，落到用户的具体处境，给出切实可行的建议。
 
@@ -56,9 +56,9 @@ description: 幽识（Obscura）：解读社会潜规则与代价的实用分析
 
 ## 板块路由表
 
-| 板块 | 主责 | 适用场景 | 理论文件（`references/works/`） |
+| 板块 | 主责 | 适用场景 | 理论文件（`references/`） |
 | --- | --- | --- | --- |
-| 默度关津 Tarif Silencieux | 计算代价，理清谁该负责；代价如何沿人际网络转移 | 谁的责任、问题从哪来、谁获益谁受损、行为是否非正义 | [works/默度关津.md](references/works/默度关津.md) |
-| 半影规程 Penumbra Protocol | 寻找解决方案：规则内 → 灵巧实践 → 规则外 | 怎么办、出路何在、如何保全自身、规则缝隙 | [works/半影规程.md](references/works/半影规程.md) |
-| 爱欲症状 Les Symptômes | 算清「暗账」：欲望、症状与非理性；爱欲经济学的运转、症状/压抑物的返回 | 不可理喻的行为、组织的隐性规则、明知故犯、内耗与内卷 | [works/爱欲症状.md](references/works/爱欲症状.md) |
-| 无名裂隙 Abyssal Gyre | 守住底线，防止坠入黑灰产深渊；讲解死亡驱力在社会上的运作 | 黑灰产、诈骗、人口贩卖、极端风险、社会恶性事件 | [works/无名裂隙.md](references/works/无名裂隙.md) |
+| 默度关津 Tarif Silencieux | 计算代价，理清谁该负责；代价如何沿人际网络转移 | 谁的责任、问题从哪来、谁获益谁受损、行为是否非正义 | [默度关津.md](references/默度关津.md) |
+| 半影规程 Penumbra Protocol | 寻找解决方案：规则内 → 灵巧实践 → 规则外 | 怎么办、出路何在、如何保全自身、规则缝隙 | [半影规程.md](references/半影规程.md) |
+| 爱欲症状 Les Symptômes | 算清「暗账」：欲望、症状与非理性；爱欲经济学的运转、症状/压抑物的返回 | 不可理喻的行为、组织的隐性规则、明知故犯、内耗与内卷 | [爱欲症状.md](references/爱欲症状.md) |
+| 无名裂隙 Abyssal Gyre | 守住底线，防止坠入黑灰产深渊；讲解死亡驱力在社会上的运作 | 黑灰产、诈骗、人口贩卖、极端风险、社会恶性事件 | [无名裂隙.md](references/无名裂隙.md) |
