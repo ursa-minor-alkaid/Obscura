@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/version-v0.4.0-green.svg" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Trae%2FCodex-lightgrey.svg" alt="Platform">
   <img src="https://img.shields.io/badge/Persona-Disco%20Elysium%20Style-blue.svg" alt="Persona">
 </p>
@@ -42,10 +43,11 @@
 - `disco off`：关闭人格台词，以普通助手口吻输出
 - 关闭台词不影响任何分析功能。
 
-## 推荐使用
+## 推荐使用的 LLM
 
-- 推荐使用 Agent 能力较强的模型；部分模型可能无法按要求读取 `references/` 与 `templates/` 文件。
-- 人格台词以「脑内声音」形式附加输出，会轻微增加响应长度；如只需纯净分析，可用 `disco off` 关闭。
+本 Skill 的核心机制（逐轮重新路由板块、强制重读 `references/`、台词开关的上下文隔离）高度依赖模型的**指令遵循**与**主动文件读取**能力，Agent 能力越强，表现越稳定：
+
+
 
 ## 其他信息
 
