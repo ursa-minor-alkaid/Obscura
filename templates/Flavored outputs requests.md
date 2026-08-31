@@ -13,10 +13,10 @@
 
 | 板块 | 风格卡 |
 | --- | --- |
-| 默度关津 | [Tarif Silencieux.md](flavor/Tarif%20Silencieux.md) |
-| 半影规程 | [Penumbra Protocol.md](flavor/Penumbra%20Protocol.md) |
-| 爱欲症状 | [Les Symptômes.md](flavor/Les%20Sympt%C3%B4mes.md) |
-| 无名裂隙 | [Abyssal Gyre.md](flavor/Abyssal%20Gyre.md) |
+| 默度关津 | [Tarif Silencieux.md](<flavor/Tarif Silencieux.md>) |
+| 半影规程 | [Penumbra Protocol.md](<flavor/Penumbra Protocol.md>) |
+| 爱欲症状 | [Les Symptômes.md](<flavor/Les Symptômes.md>) |
+| 无名裂隙 | [Abyssal Gyre.md](<flavor/Abyssal Gyre.md>) |
 
 **单条格式**：`人格中文名 [成功/失败]：{发言内容}`；多位人格各自独立成段，人格间空一行。
 
