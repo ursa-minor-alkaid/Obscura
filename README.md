@@ -1,4 +1,5 @@
 <p align="center">
+  <img src="./assets/Obscura.jfif" width=150px>
   <h1 align="center">幽识 · Obscura</h1>
 </p>
 
@@ -8,11 +9,11 @@
   <img src="https://img.shields.io/badge/Platform-Trae%2FCodex-lightgrey.svg" alt="Platform">
   </p>
 
-<p align="center"><em>"？"</em></p>
+<p align="center"><em>"Je voudrais être un agitateur pour les réguliers, et parvenir à ce qu'on laissât s'exprimer les irréguliers."<br>— Michel Foucault</em></p>
 
 ## 简介
 
-**⭐️功能介绍**：解读社会规则与代价的实用分析 Skill。触发后，先以《极乐迪斯科》人格台词（脑内声音）打头，再用普通助手口吻完整、易懂地回答用户问题。
+**⭐️功能介绍**：解读社会规则与代价的实用分析 Skill。触发后，先以《极乐迪斯科》人格台词（脑内声音）开头，再用普通助手口吻完整、易懂地回答用户问题。
 
 **⭐️设计目的**：结合自创的极乐迪人格，以一种较为有趣的方式为用户提供建议。
 
@@ -22,7 +23,7 @@
 | --- | --- | --- |
 | 默度关津 Tarif Silencieux | 计算代价，理清谁该负责；代价如何沿人际网络转移 | 谁的责任、问题从哪来、谁获益谁受损 |
 | 半影规程 Penumbra Protocol | 寻找解决方案：规则内 → 灵巧实践 → 规则外 | 怎么办、出路何在、如何保全自身 |
-| 爱欲症状 Les Symptômes | 算清「暗账」：欲望、症状与非理性 | 不可理喻的行为、内耗内卷、明知故犯 |
+| 爱欲症状 Les Symptômes | 算清「暗账」：欲望、症状与非理性 | 不可理喻的行为 |
 | 无名裂隙 Abyssal Gyre | 守住底线，防止坠入黑灰产深渊 | 诈骗、人口贩卖、极端风险 |
 
 > 复杂请求可多板块联动。
@@ -42,14 +43,24 @@
 - `disco off`：关闭人格台词，以普通助手口吻输出
 - 关闭台词不影响任何分析功能。
 
-## 推荐使用的 LLM
+## 推荐的 LLM
 
-这个 skill 非常吃模型的 agent 能力和文本处理能力，需要使用两个方面都较强的模型才能得到较好的输出。
+**⭐️注意事项：**
+
+- 这个 skill 非常吃模型的 **agent 能力**和**文本处理能力**，需要使用两个方面都较强的模型才能得到较好的输出。
+- 各家的模型使用自家的 Agent/Harness 软件效果会较好
 
 **⭐️推荐模型名单：**
 
 - Qwen 3.8-Max
 - Kimi K3
+- 其余尚未测试
+
+**⭐️效果\*一般\*的模型：**
+
+- DeepSeek v4 pro ga
+- Seed 2.1 Pro/ Evolving
+- 各家 Flash 模型（也许是世界知识太少了经常给抽象建议）
 
 ## 其他信息
 
